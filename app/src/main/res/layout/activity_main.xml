@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_weight="4"
+        android:scaleType="centerCrop"
+        android:src="@drawable/honeybee_coffee" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:text="Honeybee Coffee Co."
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:autoLink="map"
+        android:drawableLeft="@drawable/ic_directions_black_24dp"
+        android:drawablePadding="16dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:text="10716 Kingston Pike\nKnoxville, TN 37934"
+        android:textColorLink="@android:color/tab_indicator_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:autoLink="phone"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:drawablePadding="16dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:text="865-392-1005"
+        android:textColorLink="@android:color/tab_indicator_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:autoLink="web"
+        android:drawableLeft="@drawable/ic_link_black_24dp"
+        android:drawablePadding="16dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:text="www.honeybeecoffeeco.com"
+        android:textColorLink="@android:color/holo_blue_dark"
+        android:textSize="20sp" />
+
+</LinearLayout>
